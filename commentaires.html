@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Commentaires - Interface de développement de site</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Commentaires</h1>
+		<p>Gérer les commentaires laissés sur votre site web.</p>
+	</div>
+
+	<div class="container">
+		<div class="sidebar">
+			<h3>Navigation</h3>
+			<ul>
+				<li><a href="#">Tableau de bord</a></li>
+				<li><a href="#">Pages</a></li>
+				<li><a href="#">Articles</a></li>
+				<li><a href="#">Catégories</a></li>
+				<li><a href="#">Médias</a></li>
+				<li><a href="#">Thèmes</a></li>
+				<li><a href="#">Extensions</a></li>
+				<li><a href="#">Commentaires</a></li>
+			</ul>
+		</div>
+
+		<div class="main">
+			<h2>Liste des commentaires</h2>
+			<table>
+				<tr>
+					<th>ID</th>
+					<th>Auteur</th>
+					<th>Contenu</th>
+					<th>Date</th>
+					<th>Actions</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>John Doe</td>
+					<td>Ceci est un commentaire sur votre article.</td>
+					<td>2023-03-21 10:00:00</td>
+					<td>
+						<button>Modifier</button>
+						<button>Supprimer</button>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Jane Smith</td>
+					<td>Très bon article, merci pour le partage.</td>
+					<td>2023-03-22 12:30:00</td>
+					<td>
+						<button>Modifier</button>
+						<button>Supprimer</button>
+					</td>
+				</tr>
+				<!-- Ajouter plus de lignes pour plus de commentaires -->
+			</table>
+
+			<h2>Ajouter un commentaire</h2>
+			<form>
+				<label for="author">Auteur:</label><br>
+				<input type="text" id="author" name="author"><br>
+
+				<label for="content">Contenu:</label><br>
+				<textarea id="content" name="content"></textarea><br>
+
+				<input type="submit" value="Ajouter">
+			</form>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>&copy; 2023 Interface de développement de site</p>
+	</div>
+
+</body>
+</html>

@@ -1,68 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Interface de développement de site</title>
-	<link rel="stylesheet" href="style.css">
+	<title>Mini communauté</title>
 </head>
 <body>
-	<div class="header">
-		<h1>Interface de développement de site</h1>
-		<p>Bienvenue sur notre plateforme de développement de site. Ici vous pouvez créer, éditer et personnaliser vos sites web.</p>
-	</div>
-
-	<div class="container">
-		<div class="sidebar">
-			<h3>Navigation</h3>
+	<header>
+		<h1>Mini communauté</h1>
+		<nav>
 			<ul>
-				<li><a href="#">Tableau de bord</a></li>
-				<li><a href="#">Pages</a></li>
-				<li><a href="#">Articles</a></li>
-				<li><a href="#">Catégories</a></li>
-				<li><a href="#">Médias</a></li>
-				<li><a href="#">Thèmes</a></li>
-				<li><a href="#">Extensions</a></li>
-				<li><a href="#">Utilisateurs</a></li>
-				<li><a href="#">Commentaires</a></li>
-				<li><a href="#">Réglages</a></li>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Profil</a></li>
+				<li><a href="#">Amis</a></li>
+				<li><a href="#">Mur d'actualité</a></li>
 			</ul>
-		</div>
-
-		<div class="main">
-			<h2>Tableau de bord</h2>
-			<p>Statistiques du site, informations de base, etc.</p>
-
-			<h2>Pages</h2>
-			<p>Créer, éditer et supprimer des pages de votre site web.</p>
-
-			<h2>Articles</h2>
-			<p>Créer, éditer et supprimer des articles de votre site web.</p>
-
-			<h2>Catégories</h2>
-			<p>Gérer les catégories de votre site web.</p>
-
-			<h2>Médias</h2>
-			<p>Ajouter, modifier et supprimer des médias tels que des images et des vidéos.</p>
-
-			<h2>Thèmes</h2>
-			<p>Gérer les thèmes de votre site web.</p>
-
-			<h2>Extensions</h2>
-			<p>Gérer les extensions de votre site web.</p>
-
-			<h2>Utilisateurs</h2>
-			<p>Ajouter, modifier et supprimer des utilisateurs.</p>
-
-			<h2>Commentaires</h2>
-			<p>Gérer les commentaires sur votre site web.</p>
-
-			<h2>Réglages</h2>
-			<p>Gérer les réglages de votre site web.</p>
-		</div>
-	</div>
-
-	<div class="footer">
-		<p>&copy; 2023 Interface de développement de site</p>
-	</div>
-
+		</nav>
+	</header>
+	<main>
+		<section id="profil">
+			<h2>Profil de Jean</h2>
+			<div>
+				<img src="avatar.jpg" alt="Photo de profil">
+				<p>Nom : Jean</p>
+				<p>Âge : 25 ans</p>
+				<p>Ville : Paris</p>
+				<p>Description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis arcu.</p>
+				<button>Modifier le profil</button>
+				<button>Signaler le profil</button>
+			</div>
+		</section>
+		<section id="amis">
+			<h2>Liste d'amis</h2>
+			<ul>
+				<li><a href="#">Marie</a></li>
+				<li><a href="#">Pierre</a></li>
+				<li><a href="#">Lucie</a></li>
+			</ul>
+			<button>Ajouter un ami</button>
+			<button>Supprimer un ami</button>
+			<button>S'abonner à un ami</button>
+			<button>Se désabonner d'un ami</button>
+		</section>
+		<section id="mur">
+			<h2>Mur d'actualité</h2>
+			<ul>
+				<li>
+					<h3>Publication de Marie</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis arcu.</p>
+				</li>
+				<li>
+					<h3>Publication de Pierre</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis arcu.</p>
+				</li>
+				<li>
+					<h3>Publication de Lucie</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis arcu.</p>
+				</li>
+			</ul>
+			<button>Publier sur le mur</button>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Mini communauté</p>
+	</footer>
 </body>
 </html>

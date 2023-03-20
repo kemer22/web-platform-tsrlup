@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interface de développement de site - Médias</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Interface de développement de site - Médias</h1>
+		<p>Ici vous pouvez ajouter, modifier et supprimer des médias tels que des images et des vidéos pour votre site web.</p>
+	</div>
+
+	<div class="container">
+		<div class="sidebar">
+			<h3>Navigation</h3>
+			<ul>
+				<li><a href="#">Tableau de bord</a></li>
+				<li><a href="#">Pages</a></li>
+				<li><a href="#">Articles</a></li>
+				<li><a href="#">Catégories</a></li>
+				<li class="active"><a href="#">Médias</a></li>
+				<li><a href="#">Thèmes</a></li>
+				<li><a href="#">Extensions</a></li>
+			</ul>
+		</div>
+
+		<div class="main">
+			<h2>Ajouter un média</h2>
+			<form>
+				<label for="file">Sélectionnez un fichier :</label>
+				<input type="file" id="file" name="file"><br><br>
+				<input type="submit" value="Ajouter">
+			</form>
+
+			<hr>
+
+			<h2>Liste des médias</h2>
+			<table>
+				<tr>
+					<th>Nom</th>
+					<th>Type</th>
+					<th>Taille</th>
+					<th>Action</th>
+				</tr>
+				<tr>
+					<td>image1.jpg</td>
+					<td>image/jpeg</td>
+					<td>1.5 MB</td>
+					<td><a href="#">Afficher</a> | <a href="#">Modifier</a> | <a href="#">Supprimer</a></td>
+				</tr>
+				<tr>
+					<td>video1.mp4</td>
+					<td>video/mp4</td>
+					<td>25 MB</td>
+					<td><a href="#">Afficher</a> | <a href="#">Modifier</a> | <a href="#">Supprimer</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>&copy; 2023 Interface de développement de site</p>
+	</div>
+
+</body>
+</html>
